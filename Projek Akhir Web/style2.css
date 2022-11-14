@@ -1,0 +1,54 @@
+*{
+    margin: 100;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(images/jepang.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+h2{
+    text-align: center;
+    color: #a80d1d;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+label{
+    height: 100%;
+    text-align: left;
+    color: #a80d1d;
+}
+
+button{
+    background: #207fb5;
+    font-size: 19px;
+    color: aqua;
+    border: 0px;
+    width: 15%;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    transition: 0.2 ease all;
+    cursor: pointer;
+}
+
+input{
+    background: none;
+    border: 1px;
+    border-bottom: 2px solid #3651c3;
+    margin: 10px 0px 10 px 30px;
+    font-size: 18px;
+    color: #90caf9 ;
+    outline: none;
+}
+input:active{
+    border-bottom: 1px solid #3651c3;
+}
